@@ -50,8 +50,8 @@ Un thème [Zola](https://getzola.org) rapide, léger et moderne utilisant [abrid
 - [X] Autre Shortcodes: [showdata](https://abridge.netlify.app/overview-showdata/), [katex](https://abridge.netlify.app/overview-math/#usage-1).
 
 ## Démarrage rapide
-
-Ce thème nécessite une version {{ showdata(src="https://raw.githubusercontent.com/Jieiku/abridge/master/theme.toml" key="min_version" type="toml") }} ou plus tard de [Zola](https://www.getzola.org/documentation/getting-started/installation/)
+<!-- 
+Ce thème nécessite une version {{ showdata(src="https://raw.githubusercontent.com/Jieiku/abridge/master/theme.toml" key="min_version" type="toml") }} ou plus tard de [Zola](https://www.getzola.org/documentation/getting-started/installation/) -->
 
 ```bash
 git clone https://github.com/jieiku/abridge.git

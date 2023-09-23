@@ -49,7 +49,7 @@ A fast, lightweight, and modern [Zola](https://getzola.org) theme utilizing [abr
 
 ## Quick Start
 
-This theme requires version {{ showdata(src="https://raw.githubusercontent.com/Jieiku/abridge/master/theme.toml" key="min_version" type="toml") }} or later of [Zola](https://www.getzola.org/documentation/getting-started/installation/)
+<!-- This theme requires version {{ showdata(src="https://raw.githubusercontent.com/Jieiku/abridge/master/theme.toml" key="min_version" type="toml") }} or later of [Zola](https://www.getzola.org/documentation/getting-started/installation/) -->
 
 ```bash
 git clone https://github.com/jieiku/abridge.git

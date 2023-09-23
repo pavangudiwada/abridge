@@ -154,7 +154,7 @@
       {%- if config.extra.footer_credit_override %}
       {{ config.extra.footer_credit_override | safe }}
       {%- else %}
-      <p{%- if config.extra.footer_size %} class="{{ config.extra.footer_size }}"{% endif %}>{% if lang != config.default_language -%} {{ trans(key="Powered_by" | safe, lang=lang) }} {% else -%} Powered by {% endif %}<a href="https://www.getzola.org/" target="_blank">Zola</a> {%- if lang != config.default_language %} {{ trans(key="and" | safe, lang=lang) }} {% else %} and {% endif -%} <a href="https://github.com/jieiku/abridge/" target="_blank">Abridge</a></p>
+      <!-- <p{%- if config.extra.footer_size %} class="{{ config.extra.footer_size }}"{% endif %}>{% if lang != config.default_language -%} {{ trans(key="Powered_by" | safe, lang=lang) }} {% else -%} Powered by {% endif %}<a href="https://www.getzola.org/" target="_blank">Zola</a> {%- if lang != config.default_language %} {{ trans(key="and" | safe, lang=lang) }} {% else %} and {% endif -%} <a href="https://github.com/jieiku/abridge/" target="_blank">Abridge</a></p> -->
       {%- endif %}
       {%- endif %}
     </div>
